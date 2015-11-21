@@ -1,0 +1,32 @@
+body {
+  font-family: 'arial', vardan, sans-serif;
+  overflow: hidden; }
+
+.wrapperOutside {
+  display: table;
+  width: 100vw;
+  height: 100vh; }
+
+.wrapperInside {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
+
+/* added animation*/
+div {
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease; }
+
+h1,
+span {
+  text-align: center; }
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0; }
+
+span {
+  color: #666;
+  font-size: 20px;
+  letter-spacing: 18px; }

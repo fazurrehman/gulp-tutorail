@@ -1,0 +1,25 @@
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+thumbs.db
+
+# Bulid System #
+################
+node_modules/
+bulid/
+dist/
+
